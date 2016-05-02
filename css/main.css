@@ -36,3 +36,57 @@
 	color: white;
 }
 /* --- */ 
+
+/*ABOUT US PAGE*/
+.text-white{
+	color:#FFF;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	color: #cecece;
+	text-decoration: none;
+}
+
+.caja-verde{
+	padding: 30px;
+}
+
+.menu-about{
+	display: inline-block;
+	margin-left: 800px;
+}
+
+.menu-about li{
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.caja-what-skills{
+	padding: 30px;
+}
+
+.progress-bar{
+	padding:3px;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.equipo{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 20px;
+}
+
+.text-gray{
+	color: #cecece;
+}
+
+.img-circle{
+	border:5px solid #FFF;
+}
