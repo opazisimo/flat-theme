@@ -90,7 +90,21 @@
   margin: 0 auto;
 }
 
-/* our latest project */
-.wocs, .olp, .midias {
+/* our latest project + contact form +*/
+.wocs, .olp, .midias, .my-form, .formy {
   margin-bottom: 4%;
+}
+
+/* contact us */
+
+.mybread{
+  background: transparent;
+  border: 0;
+}
+.message {
+  height: 200px;
+}
+ 
+iframe {
+  width: 100%;
 }
