@@ -58,6 +58,9 @@
 .parraf, .navfooter a {
   color: #dadde1;
 }
+.parraf2 {
+  color: #3a4e63;
+}
 
 /* --- */ 
 
@@ -107,4 +110,15 @@
  
 iframe {
   width: 100%;
+}
+/* services */ 
+.aicons2 {
+  width: 80px;
+  height: 80px;
+  background-color: #939393;
+  border-radius: 40px;
+  display: inline-block;
+  font-size: 40px;
+  padding: 15px 20px 20px 20px;
+  margin: 0 auto;
 }
