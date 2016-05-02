@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
 
+
 .clearfix {
   *zoom: 1;
 }
@@ -13,9 +14,7 @@
 .clearfix:after {
   clear: both;
 }
-
 /* Generales */
-
 .bgGreen {
 	background-color: #2ecc71;
 }
@@ -31,8 +30,67 @@
 .bgHead-foot{
 	background-color: #2c3e50;
 }
-
-.t-wh {
-	color: white;
+.tx-wh {
+	color: #eeeeee;
 }
+.mi-navbar{
+	background: transparent;
+	border: 0px;
+}
+.navbar-brand{
+  color: white !important;
+}
+.tx-a{
+  color: #aab2b8 !important;
+}
+.small {
+  font-size: 80%;
+}
+.none {
+  list-style: none;
+}
+.tac {
+  text-align: center;
+}
+.inli {
+  display: inline;
+}
+.parraf, .navfooter a {
+  color: #dadde1;
+}
+
 /* --- */ 
+
+/* tiger */
+#tiger {
+	background: url(../images/slider/bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 18%;
+  padding-bottom: 18%;
+}
+
+/* social */ 
+.social, .lp, .clients, .footer-links{
+  padding-top:4%;
+  padding-bottom:4%;
+}
+.foot{
+  padding-top:2%;
+  padding-bottom:2%; 
+}
+.aicons {
+  width: 80px;
+  height: 80px;
+  background-color: #1c7a44;
+  border-radius: 40px;
+  display: inline-block;
+  font-size: 40px;
+  padding: 15px 20px 20px 20px;
+  margin: 0 auto;
+}
+
+/* our latest project */
+.wocs, .olp, .midias {
+  margin-bottom: 4%;
+}
