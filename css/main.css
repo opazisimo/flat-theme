@@ -13,3 +13,23 @@
 .clearfix:after {
   clear: both;
 }
+
+/* Generales */
+
+.bgGreen {
+	background-color: #2ecc71;
+}
+.bgGris {
+	background-color: #f5f5f5;
+}
+.bgRed {
+	background-color: #e74c3c;
+}
+.bgBlue{
+	background-color: #34495e;
+}
+.bgHead-foot{
+	background-color: #2c3e50;
+}
+
+/* --- */ 
