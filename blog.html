@@ -8,6 +8,7 @@
     <title>Blog | Flat Theme</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <!--[if lt IE 9]>
@@ -21,8 +22,8 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
   </head><!--/head-->
   <body>
-    <div class="container">
-        <div class="row bgGreen caja-verde">
+    <div class="container bgGris">
+        <div class="row bgGreen caja-verde ">
             <div class="col-md-12">
                 <h1 class="text-white">Blog </h1>
                 <p class="text-white">Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
@@ -36,14 +37,28 @@
         </div>
         <div class="row">
             <div class="col-md-8">
-                <img src="images/blog/blog1.jpg" class="img-rounded">
-                <h3>Duis sed odio sit amet nibh vulputate cursus</h3>
-                <i class="fa fa-user" aria-hidden="true"></i><p class="text-gray">John</p>
-                <i class="fa fa-folder" aria-hidden="true"></i><p class="text-gray">Bootstrap</p>
-                <i class="fa fa-calendar" aria-hidden="true"></i><p class="text-gray">Sept 16th, 2012</p>
-                <i class="fa fa-comment" aria-hidden="true"></i><p class="text-gray">3 comments</p>
-                <p>Proin congue molestie mattis. Vestibulum fermentum sem id elit faucibus, in consequat ligula volutpat. Donec porta neque quis felis fringilla mollis. Nam ornare tempus lacus, id euismod nibh mollis sed. Proin placerat massa nec sem viverra, id condimentum mi accumsan. Duis consequat aliquam dui vitae laoreet. Ut lobortis quam non erat vestibulum, ut aliquam nulla venenatis. Phasellus egestas, turpis sed blandit euismod, ligula libero iaculis tortor, in malesuada arcu lorem vel libero. Donec scelerisque tellus velit, luctus mattis lacus rutrum molestie. In hac habitasse platea dictumst.</p>
-                <button type="button" class="btn btn-default">Read More ></button>
+                <div class="bg-white">
+                    <img src="images/blog/blog1.jpg" class="img-rounded">
+                    <h3>Duis sed odio sit amet nibh vulputate cursus</h3>
+                    <i class="fa fa-user icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">John</p>
+                    <i class="fa fa-folder icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">Bootstrap</p>
+                    <i class="fa fa-calendar icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">Sept 16th, 2012</p>
+                    <i class="fa fa-comment icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">3 comments</p>
+                    <p>Proin congue molestie mattis. Vestibulum fermentum sem id elit faucibus, in consequat ligula volutpat. Donec porta neque quis felis fringilla mollis. Nam ornare tempus lacus, id euismod nibh mollis sed. Proin placerat massa nec sem viverra, id condimentum mi accumsan. Duis consequat aliquam dui vitae laoreet. Ut lobortis quam non erat vestibulum, ut aliquam nulla venenatis. Phasellus egestas, turpis sed blandit euismod, ligula libero iaculis tortor, in malesuada arcu lorem vel libero. Donec scelerisque tellus velit, luctus mattis lacus rutrum molestie. In hac habitasse platea dictumst.</p>
+                    <button type="button" class="btn btn-default">Read More ></button>
+                </div>
+                <div class="row">           
+                    <div class="bg-white">
+                        <img src="images/blog/blog2.jpg" class="img-rounded">
+                        <h3>Conubia nostra per inceptos himenaeos</h3>
+                        <i class="fa fa-user icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">John</p>
+                        <i class="fa fa-folder icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">Bootstrap</p>
+                        <i class="fa fa-calendar icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">Sept 16th, 2012</p>
+                        <i class="fa fa-comment icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">0 comment</p>
+                        <p>Proin congue molestie mattis. Vestibulum fermentum sem id elit faucibus, in consequat ligula volutpat. Donec porta neque quis felis fringilla mollis. Nam ornare tempus lacus, id euismod nibh mollis sed. Proin placerat massa nec sem viverra, id condimentum mi accumsan. Duis consequat aliquam dui vitae laoreet. Ut lobortis quam non erat vestibulum, ut aliquam nulla venenatis. Phasellus egestas, turpis sed blandit euismod, ligula libero iaculis tortor, in malesuada arcu lorem vel libero. Donec scelerisque tellus velit, luctus mattis lacus rutrum molestie. In hac habitasse platea dictumst.</p>
+                        <button type="button" class="btn btn-default">Read More ></button>
+                    </div>
+                </div>
                 <nav>
                   <ul class="pagination">
                     <li class="page-item disabled">
@@ -53,7 +68,7 @@
                       </a>
                     </li>
                     <li class="page-item active">
-                      <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
+                      <a class="page-link uno" href="#">1 <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="page-item"><a class="page-link" href="#">2</a></li>
                     <li class="page-item"><a class="page-link" href="#">3</a></li>
@@ -68,7 +83,7 @@
                   </ul>
                 </nav>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 bg-white">
                 <div class="input-group" id="adv-search">
                     <input type="text" class="form-control" placeholder="Search" />
                     <div class="input-group-btn">
@@ -80,35 +95,49 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img src="images/ads/ad1.png" class="img-rounded">
-                    <img src="images/ads/ad3.png" class="img-rounded">
+                    <img src="images/ads/ad1.png" class="img-rounded smallimage">
+                    <img src="images/ads/ad3.png" class="img-rounded smallimage">
                 </div>
                 <div class="col-md-6">
-                    <img src="images/ads/ad2.png" class="img-rounded">
-                    <img src="images/ads/ad4.png" class="img-rounded">
+                    <img src="images/ads/ad2.png" class="img-rounded smallimage">
+                    <img src="images/ads/ad4.png" class="img-rounded smallimage">
                 </div>
-            <div class="row">
+            <div class="row space">
                 <h3>Blog Categories</h3>
                 <div class="col-md-6">
                     <ul>
-                        <li class="lista-blog">Development</li>
-                        <li class="lista-blog">Design</li>
-                        <li class="lista-blog">Updates</li>
-                        <li class="lista-blog">Tutorials</li>
-                        <li class="lista-blog">News</li>
+                        <li><strong>> Development</strong></li>
+                        <li><strong>> Design</strong></li>
+                        <li><strong>> Updates</strong></li>
+                        <li><strong>> Tutorials</strong></li>
+                        <li><strong>> News</strong></li>
                     </ul>
                 </div>
                 <div class="col-md-6">
                     <ul>
-                        <li class="lista-blog">Joomla</li>
-                        <li class="lista-blog">Wordpress</li>
-                        <li class="lista-blog">Drupal</li>
-                        <li class="lista-blog">Magento</li>
-                        <li class="lista-blog">Bootstrap</li>
+                        <li><strong>> Joomla</strong></li>
+                        <li><strong>> Wordpress</strong></li>
+                        <li><strong>> Drupal</strong></li>
+                        <li><strong>> Magento</strong></li>
+                        <li><strong>> Bootstrap</strong></li>
                     </ul>
                 </div>
             </div>
-                
+            <div class="row">
+                <h3>Tag Cloud</h3>
+                <button type="button" class="btn btn-primary">CSS</button>
+                <button type="button" class="btn btn-primary">HTML5</button>
+                <button type="button" class="btn btn-primary">Wordpress</button>
+                <button type="button" class="btn btn-primary">Joomla</button>
+                <button type="button" class="btn btn-primary">Drupal</button>
+                <button type="button" class="btn btn-primary">Bootstrap</button>
+                <button type="button" class="btn btn-primary">jQuery</button>
+                <button type="button" class="btn btn-primary">Tutorial</button>
+                <button type="button" class="btn btn-primary">Update</button>
+            </div>
+            <div class="row">
+                <h3>Facebook Fanpage</h3>
+            </div>
             </div>
         </div>
         
