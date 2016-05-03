@@ -83,7 +83,7 @@
   color: #3a4e63;
 }
 /* social */ 
-.social, .lp, .clients, .footer-links, .c-u, .c-f, .galeria{
+.social, .lp, .clients, .footer-links, .c-u, .c-f, .galeria, .blog, .bBlog{
   padding-top:4%;
   padding-bottom:4%;
 }
@@ -202,7 +202,9 @@ a{
 /*BLOG PAGE*/
 .bg-white{
 	background-color: #FFF;
-	margin-top: 40px;
+	padding:20px;
+  margin-bottom: 2%;
+  border-radius: 10px;
 }
 
 .img-rounded{

@@ -1,89 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Blog | Flat Theme</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-  </head><!--/head-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Home | Flat Theme</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+        <link rel="shortcut icon" href="images/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    </head>
   <body>
-    <div class="container bgGris">
-        <div class="row bgGreen caja-verde ">
-            <div class="col-md-12">
-                <h1 class="text-white">Blog </h1>
-                <p class="text-white">Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
-                <div class="menu-about">
-                    <ul>
-                        <li class="text-white">Home</li>
-                        <a href="#" class="link-gray"><li>/ About Us</li></a>
-                    </ul>
+<!-- Header -->
+        <header id="top" class="bgHead-foot">
+            <div class="container">
+                <div class="row">
+                    <nav class="mi-navbar navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                            <img src="images/logo.png" alt="" class="navbar-brand">
+                        </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="mi-navbar nav navbar-nav navbar-right">
+                                <li><a class="tx-a" href="index.html">Home</a></li>
+                                <li><a class="tx-a" href="about-us.html">About Us</a></li>
+                                <li><a class="tx-a" href="services.html">Services</a></li>
+                                <li><a class="tx-a" href="portfolio.html">Portfolio</a></li>
+                                <li><a class="tx-a" href="contact-us.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+<!-- Blog -->
+    <section class="blog bgGreen">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 tx-wh">
+                    <h1>Blog</h1>
+                    <p class="small">Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+                </div>
+                <div class="col-md-6 tx-wh">
+                    <ol class="mybread breadcrumb navbar-right">
+                      <li><a class="tx-wh" href="index.html">Home</a></li>
+                      <li><a class="tx-wh" href="blog.html">Blog</a></li>
+                    </ol>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-8">
-                <div class="bg-white">
-                    <img src="images/blog/blog1.jpg" class="img-rounded">
-                    <h3>Duis sed odio sit amet nibh vulputate cursus</h3>
-                    <i class="fa fa-user icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">John</p>
-                    <i class="fa fa-folder icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">Bootstrap</p>
-                    <i class="fa fa-calendar icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">Sept 16th, 2012</p>
-                    <i class="fa fa-comment icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">3 comments</p>
-                    <p>Proin congue molestie mattis. Vestibulum fermentum sem id elit faucibus, in consequat ligula volutpat. Donec porta neque quis felis fringilla mollis. Nam ornare tempus lacus, id euismod nibh mollis sed. Proin placerat massa nec sem viverra, id condimentum mi accumsan. Duis consequat aliquam dui vitae laoreet. Ut lobortis quam non erat vestibulum, ut aliquam nulla venenatis. Phasellus egestas, turpis sed blandit euismod, ligula libero iaculis tortor, in malesuada arcu lorem vel libero. Donec scelerisque tellus velit, luctus mattis lacus rutrum molestie. In hac habitasse platea dictumst.</p>
-                    <button type="button" class="btn btn-default">Read More ></button>
-                </div>
-                <div class="row">           
-                    <div class="bg-white">
-                        <img src="images/blog/blog2.jpg" class="img-rounded">
-                        <h3>Conubia nostra per inceptos himenaeos</h3>
+    </section>
+<!-- cuerpo blog -->
+    <section class="bBlog">
+        <div class="container">
+            <div class="row">
+<!-- entradas -->
+                <div class="col-md-8 parraf2">
+                    <article class="bg-white">
+                        <img src="images/blog/blog1.jpg" class="img-rounded">
+                        <h3>Duis sed odio sit amet nibh vulputate cursus</h3>
                         <i class="fa fa-user icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">John</p>
                         <i class="fa fa-folder icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">Bootstrap</p>
                         <i class="fa fa-calendar icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">Sept 16th, 2012</p>
-                        <i class="fa fa-comment icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">0 comment</p>
+                        <i class="fa fa-comment icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">3 comments</p>
                         <p>Proin congue molestie mattis. Vestibulum fermentum sem id elit faucibus, in consequat ligula volutpat. Donec porta neque quis felis fringilla mollis. Nam ornare tempus lacus, id euismod nibh mollis sed. Proin placerat massa nec sem viverra, id condimentum mi accumsan. Duis consequat aliquam dui vitae laoreet. Ut lobortis quam non erat vestibulum, ut aliquam nulla venenatis. Phasellus egestas, turpis sed blandit euismod, ligula libero iaculis tortor, in malesuada arcu lorem vel libero. Donec scelerisque tellus velit, luctus mattis lacus rutrum molestie. In hac habitasse platea dictumst.</p>
                         <button type="button" class="btn btn-default">Read More ></button>
-                    </div>
+                    </article>
+                    <article class="bg-white">
+                            <img src="images/blog/blog2.jpg" class="img-rounded">
+                            <h3>Conubia nostra per inceptos himenaeos</h3>
+                            <i class="fa fa-user icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">John</p>
+                            <i class="fa fa-folder icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">Bootstrap</p>
+                            <i class="fa fa-calendar icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">Sept 16th, 2012</p>
+                            <i class="fa fa-comment icon-blog" aria-hidden="true"></i><p class="text-gray text-blog">0 comment</p>
+                            <p>Proin congue molestie mattis. Vestibulum fermentum sem id elit faucibus, in consequat ligula volutpat. Donec porta neque quis felis fringilla mollis. Nam ornare tempus lacus, id euismod nibh mollis sed. Proin placerat massa nec sem viverra, id condimentum mi accumsan. Duis consequat aliquam dui vitae laoreet. Ut lobortis quam non erat vestibulum, ut aliquam nulla venenatis. Phasellus egestas, turpis sed blandit euismod, ligula libero iaculis tortor, in malesuada arcu lorem vel libero. Donec scelerisque tellus velit, luctus mattis lacus rutrum molestie. In hac habitasse platea dictumst.</p>
+                            <button type="button" class="btn btn-default">Read More ></button>
+                    </article>
+                    <nav>
+                        <ul class="pagination">
+                            <li class="page-item disabled">
+                              <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                            </li>
+                            <li class="page-item active">
+                              <a class="page-link uno" href="#">1 <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                            <li class="page-item">
+                              <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav>
-                  <ul class="pagination">
-                    <li class="page-item disabled">
-                      <a class="page-link" href="#" aria-label="Previous">
-                        <span aria-hidden="true">&laquo;</span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                    </li>
-                    <li class="page-item active">
-                      <a class="page-link uno" href="#">1 <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item"><a class="page-link" href="#">4</a></li>
-                    <li class="page-item"><a class="page-link" href="#">5</a></li>
-                    <li class="page-item">
-                      <a class="page-link" href="#" aria-label="Next">
-                        <span aria-hidden="true">&raquo;</span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
-            </div>
-            <div class="col-md-4 bg-white">
+<!-- Aside -->
+            <div class="col-md-4">
                 <div class="input-group" id="adv-search">
                     <input type="text" class="form-control" placeholder="Search" />
                     <div class="input-group-btn">
@@ -94,35 +127,37 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="images/ads/ad1.png" class="img-rounded smallimage">
-                    <img src="images/ads/ad3.png" class="img-rounded smallimage">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/ads/ad1.png" class="img-rounded smallimage">
+                        <img src="images/ads/ad3.png" class="img-rounded smallimage">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/ads/ad2.png" class="img-rounded smallimage">
+                        <img src="images/ads/ad4.png" class="img-rounded smallimage">
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="images/ads/ad2.png" class="img-rounded smallimage">
-                    <img src="images/ads/ad4.png" class="img-rounded smallimage">
+                <div class="row">
+                    <h3>Blog Categories</h3>
+                    <div class="col-md-6">
+                        <ul>
+                            <li><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Development</li>
+                            <li><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Design</li>
+                            <li><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Updates</li>
+                            <li><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Tutorials</li>
+                            <li><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> News</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Joomla</li>
+                            <li><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Wordpress</li>
+                            <li><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Drupal</li>
+                            <li><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Magento</li>
+                            <li><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Bootstrap</li>
+                        </ul>
+                    </div>
                 </div>
-            <div class="row space">
-                <h3>Blog Categories</h3>
-                <div class="col-md-6">
-                    <ul>
-                        <li><strong>> Development</strong></li>
-                        <li><strong>> Design</strong></li>
-                        <li><strong>> Updates</strong></li>
-                        <li><strong>> Tutorials</strong></li>
-                        <li><strong>> News</strong></li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <ul>
-                        <li><strong>> Joomla</strong></li>
-                        <li><strong>> Wordpress</strong></li>
-                        <li><strong>> Drupal</strong></li>
-                        <li><strong>> Magento</strong></li>
-                        <li><strong>> Bootstrap</strong></li>
-                    </ul>
-                </div>
-            </div>
             <div class="row">
                 <h3>Tag Cloud</h3>
                 <button type="button" class="btn btn-primary">CSS</button>
@@ -139,12 +174,112 @@
                 <h3>Facebook Fanpage</h3>
             </div>
             </div>
-        </div>
-        
-    </div>
+                </div>
 
+            </div>
+        </div>
+    </section>                
+<!-- Pre- Footer links -->
+    <section id="footer-links" class="footer-links tx-wh bgBlue">
+    <div class="container">
+        <div class="row parraf">
+            <div class="col-md-3">
+                <h4>About us</h4>
+                <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta perspiciatis adipisci alias provident in esse earum totam magni, velit iste illo ullam obcaecati odit commodi culpa, nobis sit porro a.
+                </p>
+                <p class="small">totam magni, velit iste illo ullam obcaecati odit commodi culpa, nobis sit porro a.</p>
+            </div>
+            <div class="col-md-3">
+                   <h4>Company</h4>
+                <ul class="none small">
+                    <li><a href=""><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Company Overview</a></li>
+                    <li><a href=""><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Meet The Team</a></li>
+                    <li><a href=""><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Our Awesome Partners</a></li>
+                    <li><a href=""><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Our Services</a></li>
+                    <li><a href=""><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Frequently Asked Questions</a></li>
+                    <li><a href=""><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Contact Us</a></li>
+                    <li><a href=""><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Privacy Policy</a></li>
+                    <li><a href=""><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Terms of use</a></li>
+                    <li><a href=""><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Copyright</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>Latest Blog</h4>
+                <div class="media">
+                    <div class="media-left media-middle">
+                        <a href="#">
+                            <img class="media-object" src="images/blog/thumb1.jpg">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading">Pellentesque habitant morbi tristique senectus</h5>
+                        <p class="small">Posted 17 Aug 2013</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-left media-middle">
+                        <a href="#">
+                            <img class="media-object" src="images/blog/thumb2.jpg">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading">Pellentesque habitant morbi tristique senectus</h5>
+                        <p class="small">Posted 17 Aug 2013</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-left media-middle">
+                        <a href="#">
+                            <img class="media-object" src="images/blog/thumb3.jpg">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading">Pellentesque habitant morbi tristique senectus</h5>
+                        <p class="small">Posted 17 Aug 2013</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h4>Address</h4>
+                <p class="small">
+                    Twitter, Inc. <br>
+                    795 Folsom Ave, Suite 600 <br>
+                    San Francisco, CA 94107 <br>
+                    P: (123) 456-7890
+                </p>
+                <h5>Newsletter</h5>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search for...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-danger" type="button">Go!</button>
+                  </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+<!-- Footer -->
+    <footer class="foot bgHead-foot parraf">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>© 2013 ShapeBootstrap. All Right Reserved. </p>
+                    <nav class=" navfooter">
+                        <ul class="pull-right">
+                            <li class="sepa inli"><a href="index.html">Home</a></li>
+                            <li class="sepa inli"><a href="about-us.html">About Us</a></li>
+                            <li class="sepa inli"><a href="contact-us.html">Contact Us</a></li>
+                            <li class="sepa inli"><a href="#top"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>    
+    </footer>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
+
+
