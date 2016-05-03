@@ -47,7 +47,7 @@
   font-size: 80%;
 }
 .none {
-  list-style: none;
+    list-style-:none;
 }
 .tac {
   text-align: center;
@@ -172,4 +172,9 @@ a{
 
 .img-circle{
 	border:5px solid #FFF;
+}
+
+/* update-1 */
+.sepa {
+  margin-left: 3%;
 }

@@ -22,7 +22,7 @@
     </head>
     <body>
 <!-- Header -->
-        <header class="bgHead-foot">
+        <header id="top" class="bgHead-foot">
             <div class="container">
                 <div class="row">
                     <nav class="mi-navbar navbar navbar-default">
@@ -37,7 +37,6 @@
                         </div>
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="mi-navbar nav navbar-nav navbar-right">
-                                <li class="tx-a"><a class="tx-a" href="#">Link</a></li>
                                 <li><a class="tx-a" href="index.html">Home</a></li>
                                 <li><a class="tx-a" href="about-us.html">About Us</a></li>
                                 <li><a class="tx-a" href="services.html">Services</a></li>
@@ -113,7 +112,7 @@
                 <div class="olp col-md-3 col-xs-12">
                     <h4>Our Latest project</h4>
                     <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad at aliquam possimus, suscipit et consequuntur reprehenderit culpa itaque error.</p>
-                    <button class="btn btn-danger" type="button"><</button><button class="btn btn-danger" type="button">></button>
+                    <button class="small btn btn-danger" type="button"><span class="small glyphicon glyphicon-menu-left" aria-hidden="true"></span></button><button class="small btn btn-danger" type="button"><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
                 </div>
                 <div class="col-md-3 col-xs-4">
                         <div class="thumbnail">
@@ -186,21 +185,21 @@
                 <p class="small">totam magni, velit iste illo ullam obcaecati odit commodi culpa, nobis sit porro a.</p>
             </div>
             <div class="col-md-3">
-                <h4>Company</h4>
-                <ul class="small none">
-                    <li><a href="">Company Overview</a></li>
-                    <li><a href="">Meet The Team</a></li>
-                    <li><a href="">Our Awesome Partners</a></li>
-                    <li><a href="">Our Services</a></li>
-                    <li><a href="">Frequently Asked Questions</a></li>
-                    <li><a href="">Contact Us</a></li>
-                    <li><a href="">Privacy Policy</a></li>
-                    <li><a href="">Terms of use</a></li>
-                    <li><a href="">Copyright</a></li>
+                   <h4>Company</h4>
+                <ul class="none small">
+                    <li><a href=""><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Company Overview</a></li>
+                    <li><a href=""><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Meet The Team</a></li>
+                    <li><a href=""><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Our Awesome Partners</a></li>
+                    <li><a href=""><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Our Services</a></li>
+                    <li><a href=""><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Frequently Asked Questions</a></li>
+                    <li><a href=""><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Contact Us</a></li>
+                    <li><a href=""><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Privacy Policy</a></li>
+                    <li><a href=""><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Terms of use</a></li>
+                    <li><a href=""><span class="small glyphicon glyphicon-menu-right" aria-hidden="true"></span> Copyright</a></li>
                 </ul>
             </div>
             <div class="col-md-3">
-                <h5>Latest Blog</h5>
+                <h4>Latest Blog</h4>
                 <div class="media">
                     <div class="media-left media-middle">
                         <a href="#">
@@ -236,7 +235,7 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <h5>Address</h5>
+                <h4>Address</h4>
                 <p class="small">
                     Twitter, Inc. <br>
                     795 Folsom Ave, Suite 600 <br>
@@ -255,22 +254,23 @@
     </div>
     </section>
 <!-- Footer -->
-<footer class="foot bgHead-foot parraf">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <p>2013 ShapeBootstrap. All Right Reserved. </p>
-                <nav class="navbar-right navfooter">
-                    <ul class="navbar-right">
-                        <li class="inli"><a href="index.html">Home</a></li>
-                        <li class="inli"><a href="about-us.html">About Us</a></li>
-                        <li class="inli"><a href="contact-us.html">Contact Us</a></li>
-                    </ul>
-                </nav>
+    <footer class="foot bgHead-foot parraf">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>© 2013 ShapeBootstrap. All Right Reserved. </p>
+                    <nav class=" navfooter">
+                        <ul class="pull-right">
+                            <li class="sepa inli"><a href="index.html">Home</a></li>
+                            <li class="sepa inli"><a href="about-us.html">About Us</a></li>
+                            <li class="sepa inli"><a href="contact-us.html">Contact Us</a></li>
+                            <li class="sepa inli"><a href="#top"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-        </div>
-    </div>    
-</footer>
+        </div>    
+    </footer>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
