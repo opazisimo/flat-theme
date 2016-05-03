@@ -94,12 +94,13 @@
 .aicons {
   width: 80px;
   height: 80px;
+  line-height: 80px;
+  text-align: center;
   background-color: #1c7a44;
   border-radius: 40px;
   display: inline-block;
   font-size: 40px;
 }
-
 /* our latest project + contact form +*/
 .wocs, .olp, .midias, .my-form, .formy, .meet-the-team {
   margin-bottom: 4%;
@@ -122,6 +123,9 @@ iframe {
 .aicons2 {
   width: 80px;
   height: 80px;
+  display: inline-block;
+  text-align: center;
+  line-height: 80px;
   background-color: #939393;
   border-radius: 40px;
   display: inline-block;
