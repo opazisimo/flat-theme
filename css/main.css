@@ -19,7 +19,7 @@
 	background-color: #2ecc71;
 }
 .bgGris {
-	background-color: #f5f5f5;
+	background-color: #f5f5f5; 
 }
 .bgRed {
 	background-color: #e74c3c;
@@ -103,7 +103,7 @@
   border: 0;
 }
 .message {
-  height: 200px;
+  height: 150px;
 }
  
 iframe {
@@ -181,4 +181,7 @@ a{
 }
 .sicon-f {
   margin:20px 30px;
+}
+.transp {
+  color: #f5f5f5;
 }
