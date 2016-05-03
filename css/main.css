@@ -18,7 +18,7 @@
 .bgGreen {
 	background-color: #2ecc71;
 }
-.bgGris {
+.bgGris, body {
 	background-color: #f5f5f5; 
 }
 .bgRed {
@@ -101,7 +101,7 @@
 }
 
 /* our latest project + contact form +*/
-.wocs, .olp, .midias, .my-form, .formy {
+.wocs, .olp, .midias, .my-form, .formy, .meet-the-team {
   margin-bottom: 4%;
 }
 
@@ -234,4 +234,28 @@ a{
 
 .btn-primary{
 	margin:4px;
+}
+
+/* update 2*/
+.sCircle {
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+  padding: 10px;
+  border-radius: 40px;
+}
+.fb {
+  background-color: #4f7dd4;
+}
+.gplus {
+  background-color:#dc422b;
+}
+.twi {
+  background-color:#5bceff;
+}
+.linked {
+  background-color:#21a6d8;
 }
