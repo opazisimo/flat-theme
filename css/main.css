@@ -146,7 +146,7 @@ a{
 }
 
 .caja-verde{
-	padding: 30px;
+	padding: 20px;
 }
 
 .menu-about{
@@ -241,7 +241,6 @@ a{
 .btn-primary{
 	margin:4px;
 }
-
 /* update 2*/
 .sCircle {
   color: white;
@@ -264,4 +263,29 @@ a{
 }
 .linked {
   background-color:#21a6d8;
+}
+
+/*BLOG-ITEM PAGE*/
+.john-doe{
+	padding:10px;
+}
+
+.box-comments{
+	margin:5px 5px 5px 10px;
+	border:1px solid transparent;
+	display: block;
+}
+
+.box-comments-small{
+	width: 90%;
+	float: right;
+}
+
+.display{
+	display: inline-block;
+	float: right;
+}
+
+.comment-box{
+	padding-top: 20px;
 }
