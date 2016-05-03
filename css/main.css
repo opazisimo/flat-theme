@@ -87,8 +87,8 @@
   border-radius: 40px;
   display: inline-block;
   font-size: 40px;
-  padding: 15px 20px 20px 20px;
-  margin: 0 auto;
+
+
 }
 
 /* our latest project + contact form +*/
@@ -117,8 +117,6 @@ iframe {
   border-radius: 40px;
   display: inline-block;
   font-size: 40px;
-  padding: 15px 20px 20px 20px;
-  margin: 0 auto;
 }
 /*ABOUT US PAGE*/
 .text-white{
@@ -177,4 +175,10 @@ a{
 /* update-1 */
 .sepa {
   margin-left: 3%;
+}
+.sicon {
+  margin:20px;
+}
+.sicon-f {
+  margin:20px 30px;
 }
