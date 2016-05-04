@@ -102,7 +102,7 @@
   font-size: 40px;
 }
 /* our latest project + contact form +*/
-.wocs, .olp, .midias, .my-form, .formy, .meet-the-team {
+.wocs, .olp, .midias, .my-form, .formy, .meet-the-team, {
   margin-bottom: 4%;
 }
 
@@ -288,4 +288,11 @@ a{
 
 .comment-box{
 	padding-top: 20px;
+}
+.separar {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.alin {
+  padding: 20px;
 }
